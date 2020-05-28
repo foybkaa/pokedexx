@@ -1,0 +1,194 @@
+body {
+    font-family: 'Bree Serif', serif;
+    background-color: black;
+    margin:0;
+ 
+}
+
+#wrapper {
+    width: 75%;
+    margin: auto;
+    padding: 15px 40px;
+    background-color: #C14040;
+ 
+}
+
+header nav {
+    background-color: #EFE3E3;
+    color: #C14348;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 1.5em;
+}
+
+h1 {
+    margin: 10px;
+}
+
+nav aside {
+    width: 15%;
+    align-self: center;
+}
+
+nav aside a {
+    font-size: 0.9em;
+    margin: 0.5em;;
+    text-decoration: none;
+    color: #C14348;
+}
+
+main a:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+    color: black;
+}
+
+/* Page Home */
+
+#pokemon-list-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pokebox {
+    background-color: #982C2C;
+    color: #F1D3CC;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 15px 0 0 0;
+    padding: 10px;
+    border-radius: 25px;
+}
+#pokemon-list-all a{
+    text-decoration: none;
+}
+
+/*  Page Types */
+
+h3 {
+    color: #F1D3CC;
+}
+
+#type-list-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#main-pokbytype form{
+    width: 24%;
+    margin: 5px;
+}
+
+.typebox {
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+}
+
+#type-list-all:last-child {
+    justify-content: flex-start;
+}
+
+
+.typebox:hover{
+    transition: 1.7s;
+    transform: scale(1.7) rotate(360deg);
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    border-radius: 20px 300px;
+}
+
+/* Page détail solo */
+
+#main-details h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+}
+
+#pokemon-details {
+    display: flex; 
+}
+
+#avatar {
+    margin: 0 30px
+}
+
+#liste-details {
+    width: 100%;
+    padding: 20px; 
+    background-color: #982C2C;
+    border-radius: 10px;
+}
+
+#main-details h4 {
+
+    color: white;
+    font-size: 2em;
+    margin: 5px 0 15px;
+}
+
+#main-details form {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#main-details form button {
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 2px 25px;
+    font-family: 'Bree Serif', serif;
+    font-size: 0.8em;
+}
+
+#main-details h5 {
+    color: white;
+    font-size: 1.6em;
+    margin: 15px 0 15px;
+}
+
+.stat {
+    display: flex; 
+    margin: 5px;
+}
+
+.stat p {
+    margin: 2px;
+}
+
+.detail-name {
+    width: 35%;
+    color: white;
+}
+
+.detail-score {
+    width: 15%;
+    color: white;
+}
+
+.stat-background {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+ 
+    border-radius: 10px;
+}
+
+.stat-background div {
+    background-color: white;
+
+    height: 100%;
+    margin: 0;
+    border-radius: 10px;
+}
+
+
+
+
